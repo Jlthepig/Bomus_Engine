@@ -1,0 +1,3 @@
+C:\Raylib engine\x64\Debug\Raylib engine.vcxproj.CopyComplete
+C:\Raylib engine\x64\Debug\Raylib engine.exe
+C:\Raylib engine\x64\Debug\raylib.dll
