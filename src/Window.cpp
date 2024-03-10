@@ -44,7 +44,7 @@ int main()
 	{
 		BeginDrawing();
 		// handle the fullscreen togle
-		if (IsKeyDown(KEY_F11))
+		if (IsKeyPressed(KEY_F11))
 		{
 			fullfunc.Toggle_FullScreen(Swidth,Sheight);
 		}

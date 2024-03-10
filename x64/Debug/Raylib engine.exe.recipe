@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Raylib engine\x64\Debug\Raylib engine.exe</FullPath>
+      <FullPath>C:\BomusGameengine\Bomus_Engine\x64\Debug\Raylib engine.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

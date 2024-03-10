@@ -6,10 +6,12 @@ void Core::GameObject::InitObject(std::string)
 
 }
 
-void Core::GameObject::DeleteObject()
+void Core::GameObject::DeleteObject(std::string)
 {
 }
 
-void Core::GameObject::UpdateObject()
+
+
+void Core::GameObject::UpdateObject(std::string)
 {
 }

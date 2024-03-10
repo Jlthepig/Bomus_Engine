@@ -1,3 +1,6 @@
 C:\Raylib engine\x64\Debug\Raylib engine.vcxproj.CopyComplete
 C:\Raylib engine\x64\Debug\Raylib engine.exe
 C:\Raylib engine\x64\Debug\raylib.dll
+C:\BomusGameengine\Bomus_Engine\x64\Debug\Raylib engine.exe
+C:\BomusGameengine\Bomus_Engine\x64\Debug\Raylib engine.vcxproj.CopyComplete
+C:\BomusGameengine\Bomus_Engine\x64\Debug\raylib.dll

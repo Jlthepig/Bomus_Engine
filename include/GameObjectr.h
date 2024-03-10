@@ -23,9 +23,11 @@ namespace Core {
 	public:
 		
 		std::string Name = "";
-		std::string Tag = "";
+		enum ObjectType {
+
+		};
 		unsigned int ID;
-		//std::vector<Component> Component_list = { };
+		//std::vector<Component>   t_list = { };
 		std::unordered_map< unsigned int,Component> Component_List;
 
 
@@ -36,8 +38,8 @@ namespace Core {
 
 
 		void InitObject(std::string);
-		void DeleteObject();
-		void UpdateObject();
+		void DeleteObject(std::string);
+		void UpdateObject(std::string);
 
 
 	private:
