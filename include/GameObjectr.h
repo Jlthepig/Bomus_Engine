@@ -3,9 +3,13 @@
 #include <iostream>;
 #include <string>
 #include <vector>
-#include <Componentr.h>
+#include "Componentr.h"
 #include <unordered_map>
 #include <typeindex>
+#include <SceneManager.cpp>
+#ifndef GAMEOBJECTR_H
+#define GAMEOBJECTR_H
+
 
 // create The main namespace for the engine
 namespace Core {
@@ -22,8 +26,14 @@ namespace Core {
 		/// all prperties of a game object
 	public:
 		
+
+		
 		std::string Name = "";
 		enum ObjectType {
+			Mesh,
+			Point_Light,
+			Spot_Light,
+			ParticleEffect,
 
 		};
 		unsigned int ID;
@@ -37,9 +47,9 @@ namespace Core {
 		Quaternion Rotation = {};
 
 
-		void InitObject(std::string);
-		void DeleteObject(std::string);
-		void UpdateObject(std::string);
+		static void InitObject( const std::string ObjectName);
+		static void DeleteObject(const std::string& ObjectName);
+		static void UpdateObject( const std::string& ObjectName);
 
 
 	private:
@@ -47,7 +57,7 @@ namespace Core {
 
 
 	};
-
+	#endif
 	
 
 

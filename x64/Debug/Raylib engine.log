@@ -1,5 +1,36 @@
 ﻿  GameObjectr.cpp
 C:\BomusGameengine\Bomus_Engine\include\GameObjectr.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  Raylib engine.vcxproj -> C:\BomusGameengine\Bomus_Engine\x64\Debug\Raylib engine.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.h(13,53): error C2065: 'GameObject': undeclared identifier
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.h(13,42): error C2923: 'std::shared_ptr': 'GameObject' is not a valid template type argument for parameter '_Ty'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.h(13,53): message : see declaration of 'GameObject'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.h(13,42): error C3203: 'shared_ptr': unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type
+  SceneManager.cpp
+C:\BomusGameengine\Bomus_Engine\include\GameObjectr.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(7,12): error C3083: 'SceneManger': the symbol to the left of a '::' must be a type
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(7,25): error C2039: 'SceneInit': is not a member of 'Core'
+C:\BomusGameengine\Bomus_Engine\include\Componentr.h(6,11): message : see declaration of 'Core'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(7,34): error C2182: 'SceneInit': this use of 'void' is not valid
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(7,35): error C2065: 'Scene': undeclared identifier
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(7,42): error C2065: 'scene': undeclared identifier
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(8,1): error C2143: syntax error: missing ';' before '{'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(9,35): error C2065: 'Scene': undeclared identifier
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(9,42): error C2065: 'Scene': undeclared identifier
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(9,47): error C2760: syntax error: '{' was unexpected here; expected ')'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(10,2): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(10,12): error C3613: missing return type after '->' ('int' assumed)
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(10,23): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(10,2): error C2371: 'NewScene': redefinition; different basic types
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(9,7): message : see declaration of 'NewScene'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(10,12): error C2146: syntax error: missing ';' before identifier 'Scene_Name'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(14,1): error C2059: syntax error: '}'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(14,1): error C2143: syntax error: missing ';' before '}'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(15,12): error C3083: 'SceneManger': the symbol to the left of a '::' must be a type
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(15,25): error C2039: 'SceneDelete': is not a member of 'Core'
+C:\BomusGameengine\Bomus_Engine\include\Componentr.h(6,11): message : see declaration of 'Core'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(15,36): error C2182: 'SceneDelete': this use of 'void' is not valid
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(15,37): error C2065: 'Scene': undeclared identifier
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(15,44): error C2065: 'scene': undeclared identifier
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(16,1): error C2143: syntax error: missing ';' before '{'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(17,1): error C2059: syntax error: '}'
+C:\BomusGameengine\Bomus_Engine\include\SceneManager.cpp(17,1): error C2143: syntax error: missing ';' before '}'
+  Generating Code...

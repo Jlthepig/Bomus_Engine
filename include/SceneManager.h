@@ -1,6 +1,6 @@
 #pragma once
 #include <raylib.h>
-#include <GameObjectr.h>
+#include "GameObjectr.h"
 namespace Core {
 
 
@@ -10,15 +10,20 @@ namespace Core {
 
 	struct Scene {
 		std::string Scene_Name = "";
+		std::unordered_map< unsigned int, std::shared_ptr<GameObject> >GameObject_List;
+
 	};
 
 
 
 	class SceneManger {
 
-		void SceneInit(Scene );
+	public:
+		void SceneInit(Scene& scene );
+		void SceneDelete(Scene& scene);
 		
-		std::unordered_map< unsigned int, GameObject> GameObject_List;
+	private:
+		
 
 	};
 }
