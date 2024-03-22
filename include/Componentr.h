@@ -21,4 +21,12 @@ namespace Core {
 
 
 
+	class TransformComponent: public Component
+	{
+	
+		Vector3 Translation = {};
+		Vector3 Scale = {};
+		Quaternion Rotation = {};
+	};
+
 }

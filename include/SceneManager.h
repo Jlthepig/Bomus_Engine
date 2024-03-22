@@ -9,6 +9,7 @@ namespace Core {
 
 
 	struct Scene {
+		
 		std::string Scene_Name = "";
 		std::unordered_map< unsigned int, std::shared_ptr<GameObject> >GameObject_List;
 
